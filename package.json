@@ -9,7 +9,9 @@
   "name": "WEZVATECH-MASTERCLASS-DEMO-PROJECT",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "9.2.2"
+  },
   "author": "ADAM WEZVATECH",
   "license": "MIT",
   "description": "Sample NodeJS Project with Expres FrameWork - ADAM - 9739110917"
