@@ -3,7 +3,8 @@
     "express": "*"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha --recursive --exit"
   },
   "name": "WEZVATECH-MASTERCLASS-DEMO-PROJECT",
   "version": "1.0.0",
