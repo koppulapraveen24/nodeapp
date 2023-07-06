@@ -2,8 +2,6 @@
 
 apt install -y nginx
 
-rm /etc/nginx/sites-available/default
-
 cp myserver.config /etc/nginx/sites-available/myserver.config 
 
 ln -s /etc/nginx/sites-available/myserver.config /etc/nginx/sites-enabled/
