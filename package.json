@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "express": "*",
-     "sonarqube-scanner" : "*"
+    "sonarqube-scanner" : "*",
+    "owasp": "owasp-dependency-check --project \"nodebuild\" -f HTML JSON",
+    "test2": "nyc mocha"
   },
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --recursive --exit",
-    "test2": "nyc mocha"
+    "test": "mocha --recursive --exit"
   },
   "name": "WEZVATECH-MASTERCLASS-DEMO-PROJECT",
   "version": "1.0.0",
