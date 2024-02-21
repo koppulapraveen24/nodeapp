@@ -2,8 +2,7 @@
   "dependencies": {
     "express": "*",
     "sonarqube-scanner" : "*",
-    "owasp": "owasp-dependency-check --project \"nodebuild\" -f HTML JSON",
-    "test2": "nyc mocha"
+    "owasp": "*"
   },
   "scripts": {
     "start": "node app.js",
