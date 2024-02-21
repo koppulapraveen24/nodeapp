@@ -1,10 +1,12 @@
 {
   "dependencies": {
-    "express": "*"
+    "express": "*",
+     "sonarqube-scanner" : "*"
   },
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --recursive --exit"
+    "test": "mocha --recursive --exit",
+    "test2": "nyc mocha"
   },
   "name": "WEZVATECH-MASTERCLASS-DEMO-PROJECT",
   "version": "1.0.0",
